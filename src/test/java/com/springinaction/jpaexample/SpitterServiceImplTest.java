@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 		"classpath:persistence-context.xml",
 		"classpath:test-dataSource-context.xml",
 		"classpath:test-transaction-context.xml"
-})
+}) //
 public class SpitterServiceImplTest {
 	@Autowired
 	private SpitterService spitterService;

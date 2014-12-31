@@ -21,7 +21,7 @@ import org.springframework.transaction.annotation.Transactional;
 		"classpath:persistence-context.xml",
 		"classpath:test-dataSource-context.xml",
 		"classpath:test-transaction-context.xml"
-})
+}) //
 @TransactionConfiguration(transactionManager="txMgr", defaultRollback=true)
 @TestExecutionListeners({DependencyInjectionTestExecutionListener.class, TransactionalTestExecutionListener.class})
 @Transactional
